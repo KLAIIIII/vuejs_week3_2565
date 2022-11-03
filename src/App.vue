@@ -2,14 +2,12 @@
   <div>
     <!-- MENU -->
    <MenuComponent />
+   <SlideComponent />
 
    <router-view />
 
    <!-- Footer -->
    <FooterComponent />
-
-   <!-- Slide -->
-   <SlideComponent />
 
   </div>
 </template>
@@ -24,7 +22,7 @@ export default {
   components: {
     MenuComponent,
     FooterComponent,
-    SlideComponent,
+    SlideComponent
   }
 }
 </script>
