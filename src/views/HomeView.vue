@@ -1,21 +1,9 @@
 <template>
-  <div>
-
-    <MenuComponent />
-    <FooterCoponent />
-
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h1>About Page</h1>
+      </div>
+    </div>
   </div>
 </template>
-
-<script>
-import MenuComponent from '@/components/MenuComponent.vue'
-import FooterComponent from '@/components/FooterComponent.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    MenuComponent,
-    FooterComponent,
-  }
-}
-</script>
